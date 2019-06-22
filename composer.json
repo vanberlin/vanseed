@@ -1,5 +1,5 @@
 {
-	"name": "understrap/understrap",
+    "name": "vanberlin/vanseed",
 	"description": "Combines Automattic´s Underscores Starter Theme and Bootstrap 4",
 	"type": "wordpress-theme",
 	"license": "GPL-2.0-only",
@@ -9,10 +9,11 @@
 		"theme",
 		"bootstrap"
 	],
-	"homepage": "https://github.com/understrap/understrap",
+    "homepage": "https://github.com/vanberlin/vanseed",
 	"require": {
 		"composer/installers": "^1.9",
-		"php": ">=5.6"
+		"php": ">=7.2",
+	    "htmlburger/carbon-fields": "^3.1"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-master",
