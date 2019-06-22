@@ -138,3 +138,23 @@ if ( ! function_exists( 'understrap_all_excerpts_get_more_link' ) ) {
 		return $post_excerpt;
 	}
 }
+
+add_action('after_setup_theme', 'crb_load');
+if (!function_exists('crb_load')) {
+    function crb_load()
+    {
+        require_once(__DIR__ . '/../vendor/autoload.php');
+        \Carbon_Fields\Carbon_Fields::boot();
+    }
+}
+
+
+add_action('carbon_fields_register_fields', 'crb_attach_theme_options');
+if (!function_exists('crb_attach_theme_options')) {
+    function crb_attach_theme_options()
+    {
+        include_once(__DIR__ . '/carbonfields/theme-options.php');
+        include_once __DIR__ . '/carbonfields/page.php';
+        include_once __DIR__ . '/../blocks/blocks.php';
+    }
+}
