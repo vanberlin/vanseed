@@ -5,7 +5,7 @@
     "license": "GPL-2.0",
     "minimum-stability": "stable",
     "require": {
-        "composer/installers": "^1.5",
+        "composer/installers": "^1.7",
         "htmlburger/carbon-fields": "^3.1"
     },
     "keywords": ["wordpress","theme","bootstrap"],
