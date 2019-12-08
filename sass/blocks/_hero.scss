@@ -1,0 +1,11 @@
+section.hero {
+	position: relative;
+	height: 330px;
+	width: 100%;
+	background-size: cover;
+	background-position: center top;
+
+	@include media-breakpoint-up(sm) {
+		margin-bottom: 2em;
+	}
+}
