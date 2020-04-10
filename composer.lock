@@ -1,35 +1,38 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "672da44b0262a0c2af52849bed9bc658",
+    "content-hash": "9a325cb9ab76aa5bdf0a88ea721310d6",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.7.0",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "141b272484481432cda342727a427dc1e206bfa0"
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/141b272484481432cda342727a427dc1e206bfa0",
-                "reference": "141b272484481432cda342727a427dc1e206bfa0",
+                "url": "https://api.github.com/repos/composer/installers/zipball/b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "^4.8.36"
+                "composer/composer": "1.6.* || 2.0.*@dev",
+                "composer/semver": "1.0.* || 2.0.*@dev",
+                "phpunit/phpunit": "^4.8.36",
+                "sebastian/comparator": "^1.2.4",
+                "symfony/process": "^2.3"
             },
             "type": "composer-plugin",
             "extra": {
@@ -65,6 +68,7 @@
                 "Kanboard",
                 "Lan Management System",
                 "MODX Evo",
+                "MantisBT",
                 "Mautic",
                 "Maya",
                 "OXID",
@@ -119,6 +123,7 @@
                 "shopware",
                 "silverstripe",
                 "sydes",
+                "sylius",
                 "symfony",
                 "typo3",
                 "wordpress",
@@ -126,20 +131,20 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2019-08-12T15:00:31+00:00"
+            "time": "2020-04-07T06:57:05+00:00"
         },
         {
             "name": "htmlburger/carbon-fields",
-            "version": "v3.1.3",
+            "version": "v3.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/htmlburger/carbon-fields.git",
-                "reference": "b52920b003b8884b7534d18db58de446051d35a1"
+                "reference": "fc52879c1631ebf07e106ce29974858f705c17cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/b52920b003b8884b7534d18db58de446051d35a1",
-                "reference": "b52920b003b8884b7534d18db58de446051d35a1",
+                "url": "https://api.github.com/repos/htmlburger/carbon-fields/zipball/fc52879c1631ebf07e106ce29974858f705c17cd",
+                "reference": "fc52879c1631ebf07e106ce29974858f705c17cd",
                 "shasum": ""
             },
             "require": {
@@ -162,107 +167,328 @@
             "authors": [
                 {
                     "name": "htmlBurger",
-                    "role": "Developer",
                     "email": "wordpress@htmlburger.com",
-                    "homepage": "https://htmlburger.com/"
+                    "homepage": "https://htmlburger.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Miroslav Mitev",
-                    "role": "Developer",
-                    "email": "mmitev.2create@gmail.com"
+                    "email": "mmitev.2create@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Atanas Angelov",
-                    "role": "Developer",
-                    "email": "atanas.angelov.dev@gmail.com"
+                    "email": "atanas.angelov.dev@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Georgi Stoyanov",
-                    "role": "Developer",
-                    "email": "stoyanov.gs@gmail.com"
+                    "email": "stoyanov.gs@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Plamen Kostadinov",
-                    "role": "Developer",
                     "email": "pkostadinov.2create@gmail.com",
-                    "homepage": "http://plasmen.info/"
+                    "homepage": "http://plasmen.info/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Stanimir Panchev",
-                    "role": "Developer",
-                    "email": "Stan4omir@gmail.com"
+                    "email": "Stan4omir@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Marin Atanasov",
-                    "role": "Developer",
                     "email": "contact@marinatanasov.com",
-                    "homepage": "http://marinatanasov.com/"
+                    "homepage": "http://marinatanasov.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Siyan Panayotov",
-                    "role": "Developer",
-                    "homepage": "http://siyanpanayotov.com/"
+                    "homepage": "http://siyanpanayotov.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Peter Petrov",
-                    "role": "Developer",
-                    "email": "peter.petrov89@gmail.com"
+                    "email": "peter.petrov89@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Stanimir Stoyanov",
-                    "role": "Developer",
-                    "email": "stanimir.k.stoyanov@gmail.com"
+                    "email": "stanimir.k.stoyanov@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Kaloyan Ivanov",
-                    "role": "Developer",
                     "email": "kaloyanxivanov@gmail.com",
-                    "homepage": "http://vilepixels.com/"
+                    "homepage": "http://vilepixels.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Georgi Popov",
-                    "role": "Developer",
-                    "homepage": "http://magadanski.com/"
+                    "homepage": "http://magadanski.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "German Velchev",
-                    "role": "Developer",
-                    "email": "germozy@gmail.com"
+                    "email": "germozy@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Rashko Petrov",
-                    "role": "Developer",
                     "email": "brutalenemy666@gmail.com",
-                    "homepage": "http://errorfactory.com/"
+                    "homepage": "http://errorfactory.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Alexander Panayotov",
-                    "role": "Developer",
                     "email": "alexander.panayotov@gmail.com",
-                    "homepage": "http://alexanderpanayotov.com/"
+                    "homepage": "http://alexanderpanayotov.com/",
+                    "role": "Developer"
                 },
                 {
                     "name": "Viktor Vasilev",
-                    "role": "Developer",
-                    "email": "liberalcho@gmail.com"
+                    "email": "liberalcho@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Georgi Georgiev",
-                    "role": "Developer",
-                    "email": "george.georgiev96@gmail.com"
+                    "email": "george.georgiev96@gmail.com",
+                    "role": "Developer"
                 },
                 {
                     "name": "Atanas Vasilev",
-                    "role": "Developer",
-                    "email": "atanasvasilev91@gmail.com"
+                    "email": "atanasvasilev91@gmail.com",
+                    "role": "Developer"
                 }
             ],
             "description": "WordPress developer-friendly custom fields for post types, taxonomy terms, users, comments, widgets, options and more.",
             "homepage": "http://carbonfields.net/",
-            "time": "2019-07-25T06:58:26+00:00"
+            "time": "2020-04-10T08:45:40+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "dealerdirect/phpcodesniffer-composer-installer",
+            "version": "v0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git",
+                "reference": "e749410375ff6fb7a040a68878c656c2e610b132"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/e749410375ff6fb7a040a68878c656c2e610b132",
+                "reference": "e749410375ff6fb7a040a68878c656c2e610b132",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": "^5.3|^7",
+                "squizlabs/php_codesniffer": "^2|^3"
+            },
+            "require-dev": {
+                "composer/composer": "*",
+                "phpcompatibility/php-compatibility": "^9.0",
+                "sensiolabs/security-checker": "^4.1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Franck Nijhof",
+                    "email": "franck.nijhof@dealerdirect.com",
+                    "homepage": "http://www.frenck.nl",
+                    "role": "Developer / IT Manager"
+                }
+            ],
+            "description": "PHP_CodeSniffer Standards Composer Installer Plugin",
+            "homepage": "http://www.dealerdirect.com",
+            "keywords": [
+                "PHPCodeSniffer",
+                "PHP_CodeSniffer",
+                "code quality",
+                "codesniffer",
+                "composer",
+                "installer",
+                "phpcs",
+                "plugin",
+                "qa",
+                "quality",
+                "standard",
+                "standards",
+                "style guide",
+                "stylecheck",
+                "tests"
+            ],
+            "time": "2018-10-26T13:21:45+00:00"
+        },
+        {
+            "name": "phpcompatibility/php-compatibility",
+            "version": "9.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPCompatibility/PHPCompatibility.git",
+                "reference": "9fb324479acf6f39452e0655d2429cc0d3914243"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibility/zipball/9fb324479acf6f39452e0655d2429cc0d3914243",
+                "reference": "9fb324479acf6f39452e0655d2429cc0d3914243",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3",
+                "squizlabs/php_codesniffer": "^2.3 || ^3.0.2"
+            },
+            "conflict": {
+                "squizlabs/php_codesniffer": "2.6.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "suggest": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically.",
+                "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
+            },
+            "type": "phpcodesniffer-standard",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Wim Godden",
+                    "homepage": "https://github.com/wimg",
+                    "role": "lead"
+                },
+                {
+                    "name": "Juliette Reinders Folmer",
+                    "homepage": "https://github.com/jrfnl",
+                    "role": "lead"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/PHPCompatibility/PHPCompatibility/graphs/contributors"
+                }
+            ],
+            "description": "A set of sniffs for PHP_CodeSniffer that checks for PHP cross-version compatibility.",
+            "homepage": "http://techblog.wimgodden.be/tag/codesniffer/",
+            "keywords": [
+                "compatibility",
+                "phpcs",
+                "standards"
+            ],
+            "time": "2019-12-27T09:44:58+00:00"
+        },
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "3.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "dceec07328401de6211037abbb18bda423677e26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/dceec07328401de6211037abbb18bda423677e26",
+                "reference": "dceec07328401de6211037abbb18bda423677e26",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "bin": [
+                "bin/phpcs",
+                "bin/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "time": "2020-01-30T22:20:29+00:00"
+        },
+        {
+            "name": "wp-coding-standards/wpcs",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
+                "reference": "b5a453203114cc2284b1a614c4953456fbe4f546"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/b5a453203114cc2284b1a614c4953456fbe4f546",
+                "reference": "b5a453203114cc2284b1a614c4953456fbe4f546",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "squizlabs/php_codesniffer": "^3.3.1"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5 || ^0.6",
+                "phpcompatibility/php-compatibility": "^9.0",
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "suggest": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.6 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically."
+            },
+            "type": "phpcodesniffer-standard",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/WordPress/WordPress-Coding-Standards/graphs/contributors"
+                }
+            ],
+            "description": "PHP_CodeSniffer rules (sniffs) to enforce WordPress coding conventions",
+            "keywords": [
+                "phpcs",
+                "standards",
+                "wordpress"
+            ],
+            "time": "2020-02-04T02:52:06+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
