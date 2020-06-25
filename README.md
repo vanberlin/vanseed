@@ -6,6 +6,15 @@
 
 #### See: [Official Demo](https://understrap.com/understrap) | Read: [Official Docs Page](https://understrap.github.io/)
 
+# vanseed Specifics
+
+## Updating from forked Repository
+
+https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository
+git fetch understrap
+git checkout master
+git rebase understrap/master
+
 # UnderStrap WordPress Theme Framework
 
 Website: [https://understrap.com](https://understrap.com)
