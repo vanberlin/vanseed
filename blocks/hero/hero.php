@@ -3,7 +3,7 @@
 use Carbon_Fields\Block;
 use Carbon_Fields\Field;
 
-Block::make(__('Hero'))
+Block::make('hero', __('Hero'))
 	->add_fields(array(
 		Field::make('image', 'image', __('Background Image')),
 		Field::make('image', 'image_mobile', __('Background Image Mobile')),
