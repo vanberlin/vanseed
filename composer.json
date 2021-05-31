@@ -13,7 +13,7 @@
 	"require": {
 		"composer/installers": "^1.10",
 		"php": ">=7.2",
-	    "htmlburger/carbon-fields": "^3.1"
+	    "htmlburger/carbon-fields": "^3.3"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-master",
@@ -28,7 +28,7 @@
 		"lint:php": ["@php ./vendor/bin/parallel-lint --exclude .git --exclude vendor ."]
 	},
 	"support": {
-		"issues": "https://github.com/understrap/understrap/issues",
-		"source": "https://github.com/understrap/understrap"
+		"issues": "https://github.com/vanberlin/vanseed/issues",
+		"source": "https://github.com/vanberlin/vanseed"
 	}
 }
